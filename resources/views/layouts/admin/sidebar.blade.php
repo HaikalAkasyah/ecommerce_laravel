@@ -4,7 +4,7 @@
             <a href="#">Teknik Informatika | KSI</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
-            <a href="#">RPL</a>
+            <a href="#">KSI</a>
         </div>
         <ul class="sidebar-menu">
             <li class="menu-header">Menu</li>
@@ -13,7 +13,12 @@
                     <i class="fas fa-home"></i> <span>Dashboard</span>
                 </a>
             </li>
-            <li class="{{ Route::is('admin.product') ? 'active' : '' }}">
+            <li>
+                <a href="{{ route('flash-sale.create') }}">
+                    <i class="fas fa-tags"></i> Flash Sale
+                </a>
+            </li>
+            <li class="{{ Request::is('product') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('admin.product') }}">
                     <i class="fas fa-box"></i> <span>Produk</span>
                 </a>

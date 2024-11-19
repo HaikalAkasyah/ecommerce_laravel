@@ -1,6 +1,5 @@
 @extends('layouts.admin.main')
 @section('title', 'Admin Dashboard')
-
 @section('content')
 <div class="main-content">
     <section class="section">
