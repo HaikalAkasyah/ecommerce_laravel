@@ -21,8 +21,11 @@
                 </a>
             </div>
         </li>
+<<<<<<< HEAD
         <li>
             <a href="{{ route('flash-sale.index') }}">Flash Sale</a>
         </li>
+=======
+>>>>>>> fb6f8d9 (modul 4)
     </ul>
 </nav>
