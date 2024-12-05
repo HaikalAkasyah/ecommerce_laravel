@@ -1,20 +1,14 @@
 <?php
 
-<<<<<<< HEAD
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\FlashSale;
 use App\Models\Product;
-=======
-namespace App\Http\Controllers;
-
->>>>>>> fb6f8d9 (modul 4)
 use Illuminate\Http\Request;
 
 class FlashSaleController extends Controller
 {
-<<<<<<< HEAD
     public function create()
     {
         $products = Product::all();
@@ -36,7 +30,3 @@ class FlashSaleController extends Controller
     }
 }
 
-=======
-    //
-}
->>>>>>> fb6f8d9 (modul 4)

@@ -123,9 +123,4 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-<<<<<<< HEAD
 ];
-=======
-
-];
->>>>>>> fb6f8d9 (modul 4)

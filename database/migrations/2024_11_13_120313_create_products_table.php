@@ -13,19 +13,13 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
-<<<<<<< HEAD
-=======
             $table->bigInteger('id_distributor');
->>>>>>> fb6f8d9 (modul 4)
             $table->string('name');
             $table->bigInteger('price');
             $table->string('category');
             $table->text('description');
             $table->string('image');
-<<<<<<< HEAD
-=======
             $table->integer('discount')->nullable();
->>>>>>> fb6f8d9 (modul 4)
             $table->timestamps();
         });
     }
@@ -37,8 +31,4 @@ return new class extends Migration
     {
         Schema::dropIfExists('products');
     }
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> fb6f8d9 (modul 4)

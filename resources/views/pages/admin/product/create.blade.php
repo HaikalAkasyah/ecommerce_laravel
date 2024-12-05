@@ -5,10 +5,7 @@
     <section class="section">
         <div class="section-header">
             <h1>Tambah Produk</h1>
-<<<<<<< HEAD
-=======
 
->>>>>>> fb6f8d9 (modul 4)
             <div class="section-header-breadcrumb">
                 <div class="breadcrumb-item active"><a href="{{ route('admin.dashboard') }}">Dashboard</a></div>
                 <div class="breadcrumb-item active"><a href="{{ route('admin.product') }}">Produk</a></div>
@@ -16,11 +13,7 @@
             </div>
         </div>
 
-<<<<<<< HEAD
-        <a href="{{ route('admin.product') }}" class="btn btn-icon icon-left btn-warning">Kembali</a>
-=======
         <a href="{{ route('admin.product') }}" class="btn btn-icon icon-left btn-warning"> Kembali</a>
->>>>>>> fb6f8d9 (modul 4)
 
         <div class="card mt-4">
             <form action="{{ route('product.store') }}" class="needs-validation" novalidate="" enctype="multipart/form-data" method="POST">
@@ -29,12 +22,6 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="form-group">
-<<<<<<< HEAD
-                                <label for="name">Nama Produk</label>
-                                <input id="name" type="text" class="form-control" name="name" required="">
-                                <div class="invalid-feedback">
-                                    Kolom ini harus di isi!
-=======
                                 <div class="form-group">
                                 <label for="id_distributor">Nama Distributor</label>
                                     <select name="id_distributor" class="form-control">
@@ -50,47 +37,28 @@
                                 <label for="name">Nama Produk</label>
                                 <input id="name" type="text" class="form-control" name="name" required="">
                                 <div class="invalid-feedback">                                     Kolom ini harus di isi!
->>>>>>> fb6f8d9 (modul 4)
                                 </div>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-group">
                                 <label for="price">Harga Produk (Point)</label>
-<<<<<<< HEAD
-                                <input id="price" type="number" class="form-control" name="price" required="">
-                                <div class="invalid-feedback">
-                                    Kolom ini harus di isi!
-=======
                                 <input id="price" type="number" class="form-control" name="price" required="">                                 <div class="invalid-feedback">                                     Kolom ini harus di isi!
->>>>>>> fb6f8d9 (modul 4)
                                 </div>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-group">
                                 <label for="category">Kategori Produk</label>
-<<<<<<< HEAD
-                                <input id="category" type="text" class="form-control" name="category" required="">
-                                <div class="invalid-feedback">
-                                    Kolom ini harus di isi!
-=======
                                 <input id="category" type="text" class="form-control" name="category" required="">                                 <div class="invalid-feedback">                                     Kolom ini harus di isi!
->>>>>>> fb6f8d9 (modul 4)
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-group">
                                 <label for="description">Deskripsi Produk</label>
-<<<<<<< HEAD
-                                <textarea class="form-control" name="description" id="description" cols="30" rows="4" required=""></textarea>
-                                <div class="invalid-feedback">
-                                    Isi berita harus di isi!
-=======
                                 <textarea class="form-control" name="description" id="description" cols="30" rows="40" required=""></textarea>
                                 <div class="invalid-feedback">                                     Isi berita harus di isi!
->>>>>>> fb6f8d9 (modul 4)
                                 </div>
                             </div>
                         </div>
@@ -100,12 +68,7 @@
                                     <input class="custom-file-input" name="image" id="customFile" type="file" required="">
                                     <label class="custom-file-label" for="customFile">Pilih Gambar</label>
                                 </div>
-<<<<<<< HEAD
-                                <div class="invalid-feedback">
-                                    Kolom ini harus di isi!
-=======
                                 <div class="invalid-feedback">                                     Kolom ini harus di isi!
->>>>>>> fb6f8d9 (modul 4)
                                 </div>
                             </div>
                         </div>
@@ -118,8 +81,4 @@
         </div>
     </section>
 </div>
-<<<<<<< HEAD
 @endsection
-=======
-@endsection
->>>>>>> fb6f8d9 (modul 4)

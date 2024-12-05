@@ -151,4 +151,6 @@ class DistributorController extends Controller
             return redirect()->back();
         }
     }
+
+
 }
